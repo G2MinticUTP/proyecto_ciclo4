@@ -108,9 +108,9 @@ const Registrarse = () => {
                                     <option value="3">Administrador</option>
                                 </select>
                             </div>
-
-                            <button type="submit" className="btn btn-primary" id="buttonRegistro">Registrarse</button>
-
+                            <div>
+                                <button type="submit" className="btn btn-primary" id="buttonRegistro">Registrarse</button>
+                            </div>
                         </form>
                     </div>
 

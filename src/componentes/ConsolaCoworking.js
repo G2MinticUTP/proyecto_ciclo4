@@ -8,10 +8,10 @@ export default class ConsolaCoworking extends Component {
         <div>
             <Header></Header>
             <div className="títulos">
-			<h2>ADMINISTRACIÓN DE ESPACIOS COWORKING</h2>
-			<br />
-			<a className="boton-crear-espacios" href='..'>CREAR ESPACIO</a>
-		</div>
+                <h2>ADMINISTRACIÓN DE ESPACIOS COWORKING</h2>
+                <br />
+                <a className="login-link" href="/CrearCoworking">CREAR ESPACIO</a>
+            </div>
             <table id="tabla">
                 <thead>
                     <tr>
@@ -41,7 +41,7 @@ export default class ConsolaCoworking extends Component {
                         </td>
 
                         <td>
-                            <a className="nav-link" href='..'><img src="Img/editar.png" width="30" alt='.' /></a>
+                            <a className="nav-link" href='/EditarCoworking'><img src="Img/editar.png" width="30" alt='.' /></a>
                         </td>
                         <td>
                             <form method="post">

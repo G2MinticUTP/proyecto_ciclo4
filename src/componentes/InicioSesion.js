@@ -27,8 +27,14 @@ const InicioSesion = () => {
       navigate("/ConsolaCoworking");
     }
     else {
-      //console.log("Usuario incorrecto");
-      navigate("/credencialesIncorrectas");
+      if(datos.usuario === 'pedro' && datos.password === 'pedro12345'){
+        //console.log("Usuario correcto");
+        navigate("/GestionReservas");
+      }
+      else{
+        //console.log("Usuario incorrecto");
+        navigate("/credencialesIncorrectas");
+      }
     }
   }
   const navigate = useNavigate();

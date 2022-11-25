@@ -6,7 +6,7 @@ export default class Header extends Component {
         <header>
         <nav className="navbar" id="cab">
           <div className="container-fluid">
-            <a className="navbar-brand" href="Página Coworking.html">
+            <a className="navbar-brand" href="/">
               <img
                 className="Logo"
                 src="img/LogoG2.png"
@@ -14,7 +14,7 @@ export default class Header extends Component {
                 alt="."
               />
             </a>
-            <a className="navbar-brand" href="/">
+            <a className="navbar-brand" href="InicioSesion">
               <img
                 src="img/BotonLogin.png"
                 width="50"
