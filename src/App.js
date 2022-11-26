@@ -8,6 +8,7 @@ import EditarCoworking from "./componentes/EditarCoworking";
 import GestionReservas from "./componentes/GestionReservas";
 import CrearReserva from "./componentes/CrearReserva";
 import EditarReserva from "./componentes/EditarReserva";
+import RecuperarClave from "./componentes/RecuperarClave";
 
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="GestionReservas" element={<GestionReservas/>}></Route>
         <Route path="CrearReserva" element={<CrearReserva/>}></Route>
         <Route path="EditarReserva" element={<EditarReserva/>}></Route>
+        <Route path="RecuperarClave" element={<RecuperarClave/>}></Route>
       </Routes>
     </Router>
   );
