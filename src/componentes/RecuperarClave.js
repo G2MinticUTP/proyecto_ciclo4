@@ -14,7 +14,7 @@ const RecuperarClave = () => {
 			<div className="login-screen-recuperacion">
 				
                 <div className="text-area2">
-                    <label>Escribe el correo electrónico de recuperación</label>
+                    <label id = "texto">Escribe el correo electrónico de recuperación</label>
                 </div>
                   
 				<div className="login-form">

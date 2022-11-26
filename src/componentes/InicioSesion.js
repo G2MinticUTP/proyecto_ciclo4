@@ -80,7 +80,7 @@ const InicioSesion = () => {
                             </div>
                             <button type="submit" className="btn btn-primary" id="button">Iniciar Sesion</button>
                         </form>
-                        <a className="login-link" href="/RegistrarUsuario">¿Olvidaste tu contraseña?</a>
+                        <a className="login-link" href="/RecuperarClave">¿Olvidaste tu contraseña?</a>
                         <a className="login-link" href="/RegistrarUsuario">Registrarse</a>
                     </div>
                 </div>
