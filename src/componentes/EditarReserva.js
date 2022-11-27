@@ -56,7 +56,7 @@ const EditarReserva = () =>{
 								<input type="date" id="start" name="trip-start" />
 							</div>
 
-							<div>
+							<div className="botones">
 								<button type="submit" className="btn btn-primary" id="buttonRegistro">Editar</button>
 							</div>
 

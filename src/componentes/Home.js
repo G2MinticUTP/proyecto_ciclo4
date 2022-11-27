@@ -32,7 +32,7 @@ const Home = () => {
                             <p className="card-text">
                                 <small className="text-muted">Para ver más detalles da click aquí</small>
                             </p>
-                            <a href="Formulario Reserva.html" className="btn btn-primary">RESERVA AQUÍ</a>
+                            <a href="/CrearCoworking" className="btn btn-primary">RESERVA AQUÍ</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const Home = () => {
                             <p className="card-text">
                                 <small className="text-muted">Para ver más detalles da click aquí</small>
                             </p>
-                            <a href="Formulario Reserva.html" className="btn btn-primary">RESERVA AQUÍ</a>
+                            <a href="/CrearCoworking" className="btn btn-primary">RESERVA AQUÍ</a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ const Home = () => {
                             <p className="card-text">
                                 <small className="text-muted">Para ver más detalles da click aquí</small>
                             </p>
-                            <a href="Formulario Reserva.html" className="btn btn-primary">RESERVA AQUÍ</a>
+                            <a href="/CrearCoworking" className="btn btn-primary">RESERVA AQUÍ</a>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@ const Home = () => {
                             <p className="card-text">
                                 <small className="text-muted">Para ver más detalles da click aquí</small>
                             </p>
-                            <a href="Formulario Reserva.html" className="btn btn-primary">RESERVA AQUÍ</a>
+                            <a href="/CrearCoworking" className="btn btn-primary">RESERVA AQUÍ</a>
                         </div>
                     </div>
                 </div>

@@ -37,7 +37,7 @@ const EditarCoworking = () => {
                                 <input type="text" className="form-control" id="id_espacio" placeholder="Escribe la ruta de la imagen" required />
                             </div>
 
-                            <div>
+                            <div className="botones">
                                 <button type="submit" className="btn btn-primary" id="buttonRegistro">Editar</button>
                             </div>
                         </form>
